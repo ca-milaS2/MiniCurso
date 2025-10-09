@@ -1,0 +1,74 @@
+.delius-regular {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./assets/download.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+body * {
+    color: #a54f77;
+}
+
+#container {
+    width: 360px;
+    margin: auto;
+}
+
+#nome {
+    text-align: center;
+}
+
+#profile {
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#profile p {
+    font-weight: bold;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+ul li a {
+    border: 1px solid #a54f77;
+    padding: 16px 24px;
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li a:hover {
+        background: #fef3f5;
+        color: #5c2b38;
+        border-color: #5c2b38;
+}
+
